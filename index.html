@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium ecommerce store for tech gadgets">
+    <meta name="keywords" content="ecommerce, tech gadgets, online store, electronics">
+    <meta name="author" content="TechTrend Team">
+    <title>TechTrend | Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+</head>
+<body>
+    <header class="main-header">
+        <nav aria-label="Main navigation">
+            <div class="logo">TechTrend</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="/html/products.html">Products</a></li>
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+                <li><button id="cart-btn" aria-label="View cart">Cart (<span id="cart-count">0</span>)</button></li>
+            </ul>
+            <button class="hamburger" aria-label="Mobile menu">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to TechTrend</h1>
+            <p>Your one-stop shop for the latest tech gadgets</p>
+            <a href="/html/products.html" class="cta-button">Shop Now</a>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="featured-products">
+                <!-- Products will be loaded via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 TechTrend. All rights reserved.</p>
+            <address>
+                Contact us at <a href="mailto:info@techtrend.com">info@techtrend.com</a>
+            </address>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
