@@ -224,8 +224,8 @@ function setupContactForm() { /* ... */ }
 7. **Admin Dashboard**: Content management system
 8. **Performance Optimization**: Lazy loading, image optimization
 
-## Live link
-#
+# Live link
+# mini-ecommerce-rho-one.vercel.app
 
 ## Conclusion
 
